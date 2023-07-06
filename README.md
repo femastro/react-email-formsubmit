@@ -16,7 +16,7 @@ https://formsubmit.co/
 npm i
 
 # Hosting
-# add these lines in the file .htaccess
+- add these lines in the file .htaccess
 
 Options -MultiViews  
 RewriteEngine On  
