@@ -12,7 +12,7 @@ dist
 dist-ssr
 *.local
 
-pages/shared/config.jsx
+src/pages/shared/config.jsx
 
 # Editor directories and files
 .vscode/*
