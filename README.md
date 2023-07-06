@@ -16,11 +16,9 @@ https://formsubmit.co/
 npm i
 
 # Hosting
-the .htaccess, for production, has to be in the root folder of the public_html.
+# add these lines in the file .htaccess
 
-# add these lines in the file, without "#"
-
-# Options -MultiViews
+- Options -MultiViews
 # RewriteEngine On
 # RewriteBase /
 # RewriteRule ^index\.html$ - [L]
