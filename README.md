@@ -20,8 +20,8 @@ the .htaccess, for production, has to be in the root folder of the public_html.
 
 # add these lines in the file
 
-Options -MultiViews
-RewriteEngine On
+Options -MultiViews \n
+RewriteEngine On \n
 RewriteBase /
 RewriteRule ^index\.html$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
