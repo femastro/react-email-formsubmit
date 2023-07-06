@@ -18,13 +18,13 @@ npm i
 # Hosting
 # add these lines in the file .htaccess
 
-- Options -MultiViews
-- RewriteEngine On
-- RewriteBase /
-- RewriteRule ^index\.html$ - [L]
-- RewriteCond %{REQUEST_FILENAME} !-f
-- RewriteCond %{REQUEST_FILENAME} !-d
-- RewriteRule . /index.html [L]
+Options -MultiViews  
+RewriteEngine On  
+RewriteBase /  
+RewriteRule ^index\.html$ - [L]  
+RewriteCond %{REQUEST_FILENAME} !-f  
+RewriteCond %{REQUEST_FILENAME} !-d  
+RewriteRule . /index.html [L]  
 
 
 
