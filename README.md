@@ -18,15 +18,15 @@ npm i
 # Hosting
 the .htaccess, for production, has to be in the root folder of the public_html.
 
-# add these lines in the file
+# add these lines in the file, without "#"
 
-Options -MultiViews \n
-RewriteEngine On \n
-RewriteBase /
-RewriteRule ^index\.html$ - [L]
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /index.html [L]
+# Options -MultiViews
+# RewriteEngine On
+# RewriteBase /
+# RewriteRule ^index\.html$ - [L]
+# RewriteCond %{REQUEST_FILENAME} !-f
+# RewriteCond %{REQUEST_FILENAME} !-d
+# RewriteRule . /index.html [L]
 
 
 
