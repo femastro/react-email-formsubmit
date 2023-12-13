@@ -14,6 +14,13 @@ function Thanks() {
           <p>Mensaje Enviado !</p>
           <h1 className="text-3xl">Gracias por su consulta.</h1>
         </div>
+        <div className="mt-5 mb-2 mx-auto text-center">
+          <a
+          href="/"
+          className="w-50 px-5 py-3 mt-5 mb-3 rounded-xl shadow-md text-center font-extrabold bg-blue-800 hover:bg-blue-700 shadow-gray-600/50 hover:shadow-gray-400/50">
+            Formulario
+          </a>
+        </div>
         <div className="md:w-100 text-center mt-5 mb-5">
           <hr />
           <div className="grid grid-flow-col justify-stretch mt-5 mb-5">

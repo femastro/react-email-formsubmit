@@ -22,8 +22,7 @@ function FormContac() {
     }
   };
 
-  const onSubmit = handleSubmit(async (e) => {
-    console.log(e);
+  const onSubmit = handleSubmit(async () => {
     const form = document.getElementById("form");
     await form.submit();
   });
@@ -136,7 +135,7 @@ function FormContac() {
           <button
             type="button"
             onClick={onSubmit}
-            className=" w-full px-5 py-3 mt-5 mb-3 rounded-xl shadow-md text-center font-extrabold bg-blue-800 hover:bg-blue-700 shadow-gray-600/50 hover:shadow-gray-400/50"
+            className="w-full px-5 py-3 mt-5 mb-3 rounded-xl shadow-md text-center font-extrabold bg-blue-800 hover:bg-blue-700 shadow-gray-600/50 hover:shadow-gray-400/50"
           >
             Enviar
           </button>
