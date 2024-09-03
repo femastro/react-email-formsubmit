@@ -1,7 +1,7 @@
 # Add in folder shared the file: 
 # config.jsx:
 
-export const formApi = "https://formsubmit.co/fomastro@gmail.com";
+export const formApi = "https://formsubmit.co/email";
 
 # react-email-formsubmit
 https://formsubmit.co/
